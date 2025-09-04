@@ -22,3 +22,6 @@ python-magic==0.4.27
 # Optional: data utils
 numpy
 pandas
+
+# HuggingFace integration
+langchain-huggingface>=0.0.6
