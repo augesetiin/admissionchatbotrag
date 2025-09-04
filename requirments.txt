@@ -1,0 +1,24 @@
+# Core framework
+streamlit>=1.37.0
+
+# LangChain + community modules
+langchain>=0.2.11
+langchain-community>=0.2.10
+
+# Embeddings + vector DB
+sentence-transformers>=3.0.1
+faiss-cpu>=1.8.0
+
+# Transformers + Torch
+transformers>=4.43.3
+torch>=2.3.0
+
+# PDF/text handling
+pypdf>=4.2.0
+
+# File type detection (cross-platform safe)
+python-magic==0.4.27
+
+# Optional: data utils
+numpy
+pandas
