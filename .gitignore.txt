@@ -3,3 +3,7 @@ venv/
 
 # Python cache
 __pycache__/
+
+# Generated database/index files
+faiss_index/
+vector_store/

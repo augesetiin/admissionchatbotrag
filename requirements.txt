@@ -19,6 +19,10 @@ pypdf>=4.2.0
 # File type detection (cross-platform safe)
 python-magic==0.4.27
 
+# --- NEW: Add these lines for web scraping ---
+requests
+beautifulsoup4
+
 # Optional: data utils
 numpy
 pandas
