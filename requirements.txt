@@ -28,4 +28,11 @@ numpy
 pandas
 
 # HuggingFace integration
-langchain-huggingface>=0.0.6
+langchain-huggingface>=0.0.6 
+
+langchain
+langchain-community==0.2.10
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+...
+langchain-text-splitters  # <-- Add this line
