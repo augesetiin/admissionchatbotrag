@@ -1,38 +1,23 @@
-# Core framework
-streamlit>=1.37.0
+# Core Framework
+streamlit
 
-# LangChain + community modules
-langchain>=0.2.11
-langchain-community>=0.2.10
+# LangChain Ecosystem
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
 
-# Embeddings + vector DB
-sentence-transformers>=3.0.1
-faiss-cpu>=1.8.0
+# Embeddings & Vector Store
+sentence-transformers
+faiss-cpu
 
-# Transformers + Torch
-transformers>=4.43.3
-torch>=2.3.0
+# Document Handling
+pypdf
 
-# PDF/text handling
-pypdf>=4.2.0
-
-# File type detection (cross-platform safe)
-python-magic==0.4.27
-
-# --- NEW: Add these lines for web scraping ---
+# Web Scraping
 requests
 beautifulsoup4
 
-# Optional: data utils
+# Data Handling
 numpy
 pandas
-
-# HuggingFace integration
-langchain-huggingface>=0.0.6 
-
-langchain
-langchain-community==0.2.10
-sentence-transformers==3.0.1
-faiss-cpu==1.8.0
-...
-langchain-text-splitters  # <-- Add this line
