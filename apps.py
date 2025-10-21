@@ -1,7 +1,7 @@
 # --- IMPORTS ---
 import streamlit as st
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_text_splitter import CharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
